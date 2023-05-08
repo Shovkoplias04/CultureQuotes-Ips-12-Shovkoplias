@@ -247,13 +247,13 @@ a {
 
 
 
-@media (width < 1200px ) {
+@media (max-width: 1200px ) {
     .container {
         max-width: 970px;
     }
 }
 
-@media (width < 992px ) {
+@media (max-width: 992px ) {
     .container {
         max-width: 750px;
     }
@@ -273,7 +273,7 @@ a {
 
 
 
-@media (width < 767px ) {
+@media (max-width: 767px ) {
     .container {
         max-width: none;
     }
